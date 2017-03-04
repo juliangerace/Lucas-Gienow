@@ -1,0 +1,228 @@
+html body {
+    background-color: #FFF;
+    font-family: Ingra, sans-serif;
+    font-weight: 200;
+    color: #222;
+}
+.container-fluid {
+    display: table;
+}
+#menu.navbar-default .navbar-brand {
+    color: rgb(119, 119, 119);
+}
+#menu.navbar-default {
+    background-color: #014b66;
+    font-size: 24px;
+    text-align: center;
+}
+#menu.navbar-default .navbar-nav>li>a {
+    background-color: #014b66;
+    color: #FFF;
+}
+#menu.navbar-default .navbar-nav>li>a:hover,
+#menu.navbar-default .navbar-nav>li>a:focus {
+    background-color: #0183b2;
+    color: #FFF;
+}
+#menu.navbar-default .navbar-nav>.active>a,
+#menu.navbar-default .navbar-nav>.active>a:hover,
+#menu.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #0183b2;
+    color: #0183b2;
+}
+#menu.navbar-default .navbar-toggle {
+    border-color: #0183b2;
+}
+#menu.navbar-default .navbar-toggle:hover,
+#menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#menu.navbar-default .navbar-toggle:hover .icon-bar,
+#menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #0183b2;
+}
+.navbar-btn {
+    color: #1f5366;
+    background-color: #f988ac;
+}
+.header {
+    /*background: url(images/loot-whiteArtboard%201@0.75x.png) no-repeat center center;*/
+    /*background-color: #014b66!important;*/
+    background: #014b66;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #014b66, #0183b2);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #014b66, #0183b2);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #014b66, #0183b2);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #014b66, #0183b2);
+    /* Standard syntax */
+    height: 250px;
+    margin-top: 45px;
+    position: relative;
+}
+.heading {
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    display: grid;
+    color: #48bfea;
+}
+.subheading {
+    font-family: Raleway, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #FFF;
+}
+.padder {
+    padding: 20px;
+}
+.yeah {
+    background: #0183b2;
+}
+
+/*extra small devices*/
+
+@media (min-width: 300px) {
+    .heading {
+        font-size: 35px;
+    }
+    .subheading {
+        font-size: 14px;
+    }
+    .jumbotron {
+        height: 130px
+    }
+    #lost {
+        width: 80%;
+        height: auto;
+    }
+    .gradrow {
+        background: #0183b2;
+        height: 170px;
+        overflow: hidden;
+    }
+    .mids {
+        font-size: 10;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        padding: 30px;
+    }
+}
+
+/*Custom inbetween for hero image and header*/
+
+@media (min-width: 500px) {
+    .heading {
+        font-size: 48px;
+        letter-spacing: 5px;
+    }
+    .subheading {
+        font-size: 18px
+    }
+    .jumbotron {
+        height: 150px;
+    }
+    #lost {
+        width: 50%;
+        height: auto;
+        min-width: 140px;
+    }
+    .mids {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .gradrow {
+        background: #0183b2;
+        height: 210px;
+        overflow: hidden;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .heading {
+        font-size: 56px;
+    }
+    .subheading {
+        font-size: 17px;
+    }
+    .jumbotron {
+        height: 200px;
+    }
+    .gradrow {
+        background: #0183b2;
+        height: 210px;
+        overflow: hidden;
+    }
+    .mids {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #lost {
+        min-width: 240px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .heading {
+        font-size: 77px;
+    }
+    .subheading {
+        font-size: 20px;
+    }
+    .jumbotron {
+        height: 250px;
+    }
+    .gradrow {
+        background: #0183b2;
+        height: 250px;
+        overflow: hidden;
+    }
+    .mids {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1200px) {
+    .heading {
+        font-size: 95px;
+        letter-spacing: 2px;
+    }
+    jumbotron {
+        height: 300px;
+    }
+    #lost {
+        width: 60%;
+        height: auto;
+        max-width: 400px;
+    }
+    .mids {
+        font-size: 45px;
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 100px;
+        align-content: center;
+    }
+    .gradrow {
+        background: #0183b2;
+        height: 300px;
+        overflow: hidden;
+        max-width: 800px;
+    }
+    
+}
