@@ -65,6 +65,15 @@ html body {
     margin-top: 45px;
     position: relative;
 }
+.bookhead {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 50px;
+}
+.bookbody {
+    font-size: 20px;
+    
+}
 .heading {
     font-family: Raleway, sans-serif;
     text-align: center;
@@ -82,6 +91,47 @@ html body {
 }
 .yeah {
     background: #0183b2;
+}
+.shows {
+    text-align: center;
+    background: #0183b2;
+    color: #FFF;
+    font-family: Raleway, sans-serif;
+    border-radius: 8px;
+}
+.show {
+    background-color:aqua;
+}
+.showdate {
+    font-size: 30px;
+    font-family: Raleway, sans-serif;
+}
+.showvenue {
+    font-size: 25px;
+}
+.showinfo {
+    font-size: 20px;
+}
+.showbutton {
+    color:white;
+    background-color: #f988ac;
+    height: 40px;
+    width: auto;
+}
+.footer {
+    height: 150px;
+    margin-top: 20px;
+    background: #014b66;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #014b66, #0183b2);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #014b66, #0183b2);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #014b66, #0183b2);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #014b66, #0183b2);
+    /* Standard syntax */
+    
 }
 
 /*extra small devices*/
@@ -111,6 +161,12 @@ html body {
         text-align: center;
         margin-top: 10px;
         padding: 30px;
+    }
+    .bookbody {
+    font-size: 16px;
+    }
+    img.live {
+        width:75%;
     }
 }
 
@@ -171,6 +227,10 @@ html body {
     #lost {
         min-width: 240px;
     }
+    .bookbody {
+    font-size: 20px;
+    }
+    
 }
 
 /* Medium devices (desktops, 992px and up) */
